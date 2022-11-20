@@ -1,0 +1,26 @@
+<%- include("header") -%>
+<form action="/" method="post">
+  <div class="mb-3">
+    <label >Name</label>
+    <input type="text" name="name" class="form-control" placeholder="Please enter Name">
+  </div>
+  <div class="mb-3">
+    <label >Department</label>
+    <input type="text" name="department" class="form-control" placeholder="Please enter Department">
+  </div>
+  <div class="mb-3 f">
+    <label >Email</label>
+    <input type="email" name="email" class="form-control"placeholder="Please enter Email">
+  </div>
+  <div class="mb-3 f">
+    <label >Mobile</label>
+    <input type="tel" name="mobile" class="form-control"placeholder="Please enter Mobile Number">
+  </div>
+  <div class="mb-3 f">
+    <label >Address</label>
+    <input type="text" name="address" class="form-control" placeholder="Please enter Address">
+  </div><br />
+  <button type="submit" class="btn btn-primary">Add Student</button>
+</form>
+
+<%- include("footer") -%>
